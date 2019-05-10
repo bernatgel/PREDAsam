@@ -1,16 +1,15 @@
-Package: PREDA
-Version: 1.31.0
-Title: Position Related Data Analysis
+Package: PREDAsam
+Version: 1.31.1
+Title: Position Related Data Analysis - modified vesion with SAM active
 Author: Francesco Ferrari <francesco.ferrari@ifom.eu>
-Maintainer: Francesco Ferrari <francesco.ferrari@ifom.eu>
+Maintainer: Bernat Gel <bgel@igtp.cat>
 License: GPL-2
 Depends: R (>= 2.9.0), Biobase, lokern (>= 1.0.9), multtest, stats,
-        methods, annotate
+        methods, annotate, samr
 Suggests: quantsmooth, qvalue, limma, caTools, affy,
         PREDAsampledata
 Enhances: Rmpi, rsprng
-Description: Package for the position related analysis of quantitative
-        functional genomics data.
+Description: This is a modified version of the PREDA package in Bioconductor by F. Ferrari. The only modification was to reenable SAM as a valid statistic.
 Collate: AllClasses.R AllGenerics.R analysesNames.R
         CleanNAAnnotationDataframe.R
         compareFunctionFromStatisticsForPREDA.R
